@@ -1,0 +1,37 @@
+<!--
+* filename: feedback.html
+* date: 12th Oct, 2011
+* time: 11:39 PM IST
+* author: Harshit Shrivastava
+* email: harshit.shrivastava14@gmail.com
+* modification history: 1. 13th Oct, 2011, 5:04 PM
+*  					2. 13th Oct, 2011, 8:30 PM
+* description: This file is displayed inside the extension window when the user clicks on the feedback option.
+*				The images are loaded at the run-time from facebook using the graph API.
+-->
+<html>
+</title></title>
+<div id="aa">
+<div id="parent" style="background-color:lightgray">
+<div id="top" align="left"><font size="6" face="Garmond,Comic Sans MS" color="green"><center><b>WhiZ</b> </font><font size="6" face="Garmond,Comic Sans MS" color="#9900FF"><b>Search</b></font>
+<font size="3" face="Garmond" color="black">Beta</font></center>
+</div><div id="back" style="background-color:lightgray">
+<div id="enclose" style="background-color:gray;">
+<center><br/><font color="white">Developers</font>
+<table border="0" cellpadding="10">
+<tr>
+<td><img src="http://graph.facebook.com/harshit.shrivastava14/picture?type=normal" alt="Harshit" title="Harshit Shrivastava">
+</td><td><br /><br/><align="right" size="4"><font color="white"><font size="5">Harshit Shrivastava</font><br><I>mail-id:</I>&nbsp&nbsp
+<font face="Calibri">harshit.shrivastava14@gmail.com</font></font></align></br>
+</td></tr>
+<tr><td><img src="http://graph.facebook.com/tvvignesh/picture?type=small" alt="Vignesh" title="T.v. Vignesh"></td>
+<td><br /><br/><align="right" size="4"><font color="white"><font size="5">T.v. Vignesh</font><br><I>mail-id:</I>&nbsp&nbsp
+<font face="Calibri">vigneshviswam@gmail.com</font></font></align></br></td></tr>
+</table>
+<div align="center">
+</div>
+</div>
+</div>
+</div></div>
+<div id="feedback" align="right"><br><center>Your feedback is really important for us.</center></br></div>
+</html>
