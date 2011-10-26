@@ -1,0 +1,89 @@
+<!--
+* filename: popup.html
+* date: 25th Sep, 2011
+* time: 7:10 PM
+* author: Harshit Shrivastava
+*  		T.v. Vignesh
+* email: harshit.shrivastava14@gmail.com
+		vigneshviswam@gmail.com
+* modification history: 1. 26th Sep, 2011, 12:37 PM
+*						2. 26th Sep, 2011, 6:09 PM
+*						3. 27th Sep, 2011, 1:10 AM
+*						4. 27th Sep, 2011, 12:14 PM
+*						5. 27th Sep, 2011, 6:32 PM
+*						6. 28th Sep, 2011, 12:50 PM
+*						7. 28th Sep, 2011, 3:00 PM
+*						8. 13th Oct, 2011, 5:02 PM
+*						9. 13th Oct, 2011, 8:30 PM
+*	Description: This is the page that opens to the user when the extension is clicked on.
+*				The requests are then loaded onto a different page and displayed inthe extension frame. 
+-->
+
+<html>
+<head>
+<title>WhiZ Search</title>
+<script src="jquery-1.6.2.min.js"></script>
+<script src="main.js"></script>
+<style type="text/css">
+#ld
+{
+display:none;
+}
+</style>
+</head>
+<div id="aa">
+<div id="parent" style="background-color:lightgray">
+<div id="top" align="left"><font size="6" face="Garmond,Comic Sans MS" color="green"><center><b>WhiZ</b> </font><font size="6" face="Garmond,Comic Sans MS" color="#9900FF"><b>Search</b></font>
+<font size="3" face="Garmond" color="black">Beta</font></center>
+</div><div id="back" style="background-color:lightgray">
+<div id="enclose" style="background-color:gray;">
+<center>
+<table border="0" cellpadding ="10">
+<tr><td><form name="sel">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <font color="white">Category:</font>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</td>
+<td><center>
+<select name="category" onclick="cat();">
+<option>Books</option>
+<option>Mobiles & Accessories</option>
+<option>Computers</option>
+<option>Cameras</option>
+<option>Games & Consoles</option>
+<option>Movies & TV Shows</option>
+<option>Music</option>
+<option>Mp3 Players & IPods</option>
+<option>Personal & Health Care</option>
+<option>Home Appliances</option>
+<option>TVs & Video Players</option>
+</select></center>
+</td><br>
+</tr>
+<tr>
+<td>
+<font color="white">Product Name:</font></td><td><input type="text" name="proname" size="22.5" onclick="comm();"><br>
+</td></tr>
+<tr>
+<td><font color="white">Sort by:</font></td>
+<td><center><select name="sort" onclick="srtt();">
+<option value="relevance">Relevance</option>
+<option value="price_asc">Price(Low to High) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </option>
+<option value="price_desc">Price(High to Low)</option>
+</select></center></td></table>
+<div align="center">
+
+
+</div>
+<div id="ld">
+<div align="center">Processing request...<br><img src="loading.gif"></div>
+</div>
+</div>
+<center>
+<input type="radio" name="myradio" value="Flip Kart" checked style="display:none;"/>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="myradio" value="Ebay" style="display:none;"/>
+<br>
+<input type="button" value="WhiZ Search" onclick="func();">
+</form><hr></center><div id="feedback" align="right"><a href="feedback.html">Feedback</a></div>
+</div>
+</div></div>
+<div id="com"></div>
+</html>
