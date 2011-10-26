@@ -1,0 +1,69 @@
+=======================Welcome to WhiZ Search (Beta)==========================
+  
+This README file contains important information about WhiZ Search (Beta).
+ 
+=======TABLE OF CONTENTS========
+1. Introduction
+2. What it does
+3. Installation
+4. Developer's contact information
+______________________________________________________________________________
+
+
+1. INTRODUCTION:-
+============================================================
+WhiZ Search is a free extension for Google Chrome. 
+It can be used as an extension inside Google Chrome.
+______________________________________________________________________________
+
+
+2. WHAT IT DOES:-
+============================================================
+WhiZ Search displays the search results in a small window inside 
+Google Chrome for the requested product including its cost, rating, 
+reviews (if available), picture, a brief description/configuration 
+and other relevant details. 
+When clicked on the product it directly takes to the page from 
+where the product can be purchased. 
+Currently we are offering a Beta version which can search for 
+products in the following categories:- 
+
+ 1. Books 
+ 2. Mobiles and accessories 
+ 3. Computers 
+ 4. Cameras 
+ 5. Games and Consoles 
+ 6. Movies and TV Shows 
+ 7. Music 
+ 8. Mp3 players and iPods 
+ 9. Personal and Health Care 
+10. Home Appliances 
+11. TVs and Video Players 
+
+Currently the search results are offered based on the following criteria:- 
+
+1. Relevance 
+2. Price (high to low) 
+3. Price (low to high) 
+______________________________________________________________________________
+
+
+3. INSTALLATION
+=============================================================
+
+1. Open Google Chrome
+2. Click on the settings option on the top right.
+3. Goto Tools->Extensions
+4. Click on "Load Unpacked Extensions".
+5. Select the folder containing the source files for the extension.
+6. You are good to go. :-)
+______________________________________________________________________________
+
+
+4. DEVELOPER'S CONTACT INFORMATION
+=============================================================
+
+Please send feedbacks to:-
+
+Harshit Shrivastava
+harshit.shrivastava14@gmail.com
