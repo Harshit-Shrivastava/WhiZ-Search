@@ -1,0 +1,20 @@
+{
+  "name": "WhiZ Search",
+  "version": "1.0",
+  "description": "Search for your favourite products is just a click away.",
+  "browser_action": 
+  {
+    "default_icon": "icon.png",
+  "default_title": "WhiZ Search",
+    "popup":"popup.html"
+  },
+ "permissions":[
+    "contextMenus","tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": 
+  {
+    "16": "icon.png"
+  },
+  "options_page": "options.html",
+  "background_page": "background.html"
+}
